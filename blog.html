@@ -31,6 +31,7 @@
 
     <!-- Template Stylesheet -->
     <link href="css/style.css" rel="stylesheet">
+    <link href="/css/blog.css" rel="stylesheet">
 </head>
 
 <body>
@@ -62,15 +63,15 @@
                         <a href="service.html" class="nav-item nav-link">Service</a>
                         <a href="project.html" class="nav-item nav-link">Project</a>
                         <div class="nav-item dropdown">
-                            <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Pages</a>
+                            <a href="#" class="nav-link dropdown-toggle active" data-bs-toggle="dropdown">Pages</a>
                             <div class="dropdown-menu m-0">
                                 <a href="team.html" class="dropdown-item">Our Team</a>
-                                <a href="/blog.html" class="dropdown-item">Blog</a>
-                                <a href="testimonial.html" class="dropdown-item">Testimonial</a>
+                                <a href="team.html" class="dropdown-item active">Blog</a>
+                                <a href="testimonial.html" class="dropdown-item ">Testimonial</a>
 
                             </div>
                         </div>
-                        <a href="contact.html" class="nav-item nav-link active">Contact</a>
+                        <a href="contact.html" class="nav-item nav-link">Contact</a>
                     </div>
                     <a href="/contact.html" class="btn rounded-pill py-2 px-4 ms-3 d-none d-lg-block">Get Started</a>
                 </div>
@@ -78,15 +79,15 @@
 
             <div class=" py-5 bg-primary hero-header">
                 <div class="container my-5 py-5 px-lg-5">
-                    <div class="row s py-5">
+                    <div class="row g-0 py-5">
                         <div class="col-12 text-center">
-                            <h1 class="text-white animated slideInDown">Contact</h1>
+                            <h1 class="text-white animated slideInDown">Blog</h1>
                             <hr class="bg-white mx-auto mt-0" style="width: 90px;">
                             <nav aria-label="breadcrumb">
                                 <ol class="breadcrumb justify-content-center">
                                     <li class="breadcrumb-item"><a class="text-white" href="#">Home</a></li>
                                     <li class="breadcrumb-item"><a class="text-white" href="#">Pages</a></li>
-                                    <li class="breadcrumb-item text-white active" aria-current="page">Contact</li>
+                                    <li class="breadcrumb-item text-white active" aria-current="page">Blog</li>
                                 </ol>
                             </nav>
                         </div>
@@ -97,57 +98,37 @@
         <!-- Navbar & Hero End -->
 
 
-        <!-- Contact Start -->
-        <div class=" py-5">
-            <div class="container py-5 px-lg-5">
-                <div class="wow fadeInUp" data-wow-delay="0.1s">
-                    <p class="section-title text-secondary justify-content-center"><span></span>Contact Us<span></span>
-                    </p>
-                    <h1 class="text-center mb-5">Contact For Any Query</h1>
+        <main>
+            <div class="blog-container">
+                <div class="blog-post">
+                    <img src="https://via.placeholder.com/400x200" alt="Blog Image">
+                    <div class="content">
+                        <h2>Latest Tech Trends</h2>
+                        <p>Discover the latest trends in software development and how they are shaping the future of
+                            technology.</p>
+                        <a href="#">Read More</a>
+                    </div>
                 </div>
-                <div class="row justify-content-center">
-                    <div class="col-lg-7">
-                        <div class="wow fadeInUp" data-wow-delay="0.3s">
-
-                            <form>
-                                <div class="row g-3">
-                                    <div class="col-md-6">
-                                        <div class="form-floating">
-                                            <input type="text" class="form-control" id="name" placeholder="Your Name">
-                                            <label for="name">Your Name</label>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-6">
-                                        <div class="form-floating">
-                                            <input type="email" class="form-control" id="email"
-                                                placeholder="Your Email">
-                                            <label for="email">Your Email</label>
-                                        </div>
-                                    </div>
-                                    <div class="col-12">
-                                        <div class="form-floating">
-                                            <input type="text" class="form-control" id="subject" placeholder="Subject">
-                                            <label for="subject">Subject</label>
-                                        </div>
-                                    </div>
-                                    <div class="col-12">
-                                        <div class="form-floating">
-                                            <textarea class="form-control" placeholder="Leave a message here"
-                                                id="message" style="height: 150px"></textarea>
-                                            <label for="message">Message</label>
-                                        </div>
-                                    </div>
-                                    <div class="col-12">
-                                        <button class="btn btn-primary w-100 py-3" type="submit">Send Message</button>
-                                    </div>
-                                </div>
-                            </form>
-                        </div>
+                <div class="blog-post">
+                    <img src="https://via.placeholder.com/400x200" alt="Blog Image">
+                    <div class="content">
+                        <h2>AI in Software Development</h2>
+                        <p>Explore how Artificial Intelligence is being integrated into modern software solutions to
+                            improve efficiency.</p>
+                        <a href="#">Read More</a>
+                    </div>
+                </div>
+                <div class="blog-post">
+                    <img src="https://via.placeholder.com/400x200" alt="Blog Image">
+                    <div class="content">
+                        <h2>Top Programming Languages in 2024</h2>
+                        <p>Learn about the most popular programming languages in 2024 and which ones you should master.
+                        </p>
+                        <a href="#">Read More</a>
                     </div>
                 </div>
             </div>
-        </div>
-        <!-- Contact End -->
+        </main>
 
 
         <!-- Footer Start -->
