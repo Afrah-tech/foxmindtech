@@ -12541,9 +12541,9 @@ fieldset:disabled .btn {
 
 /* Custom CSS */
 .fixed-size {
-    width: 100px;
+    width: 150px;
     /* Fixed width for the images */
-    height: 100px;
+    height: 150px;
     /* Fixed height for the images */
 }
 
