@@ -12531,3 +12531,34 @@ fieldset:disabled .btn {
         display: none !important
     }
 }
+
+@media (max-width: 576px) {
+    .row-cols-6 {
+        flex-wrap: nowrap;
+        overflow-x: scroll;
+    }
+}
+
+/* Custom CSS */
+.fixed-size {
+    width: 100px;
+    /* Fixed width for the images */
+    height: 100px;
+    /* Fixed height for the images */
+}
+
+.custom-overflow {
+    overflow-x: scroll;
+    /* Enable horizontal scrolling */
+    white-space: nowrap;
+    /* Prevent line wrapping */
+}
+
+@media (min-width: 768px) {
+    .custom-overflow {
+        overflow-x: hidden;
+        /* Disable scrolling on larger screens */
+        white-space: normal;
+        /* Normal wrapping for grid */
+    }
+}
